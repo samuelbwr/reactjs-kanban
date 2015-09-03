@@ -1,0 +1,20 @@
+{
+  "name": "reactjs-kanban",
+  "version": "1.0.0",
+  "description": "A Simple Kanban with ReactJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "reactjs",
+    "kanban",
+    "reactive"
+  ],
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "author": "Samuel Berwanger",
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "creationDate": 2312312312,
+        "text": "Do something",
+        "authorId": 2,
+        "phase": "todo"
+    },
+    {
+        "id": 2,
+        "creationDate": 2233222,
+        "text": "Do something other thing",
+        "authorId": 1,
+        "phase": "doing"
+    }
+] 

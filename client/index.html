@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ReactJS - Kanban</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <script src="https://fb.me/react-0.13.3.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+    <script src="jsx/postIt.jsx" type="text/jsx"></script>
+    <script src="jsx/phase.jsx" type="text/jsx"></script>
+    <script src="jsx/board.jsx" type="text/jsx"></script>
+  </head>
+  <body>
+    <div id="kanban"></div>
+    <script type="text/jsx">
+      React.render(
+        <Board url="data/postIts.json" refreshInterval={4000}/>,
+        document.getElementById('kanban')
+      );
+    </script>
+  </body>
+</html>
